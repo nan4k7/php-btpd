@@ -99,7 +99,7 @@ final class btpdWebControl extends btpdControl {
 	    $out .= '<td><A href="index.php?action=start&id=' . $val[self::NUM] . '">start</a></td>';
 	    $out .= '<td><A href="index.php?action=del&id=' . $val[self::NUM] . '">del</a></td>';
 	}
-	$out .= '</tbody><tfoot><tr><td align="right">Total:</td><td>' . $this->format_size($total_got) . ' of ' . $this->format_size($total_size) . ' (' . (round($total_got * 100 / $total_size,2)) . '%)</td><td>' . $this->format_rate($rate_up) . '</td><td>' . $this->format_rate($rate_dl) . '</td></tfoot>';
+	$out .= '</tbody><tfoot><tr><td align="right">Total:</td><td>' . $this->format_size($total_got) . ' of ' . $this->format_size($total_size) . ' (' . (round($total_got * 100 / ($total_size == 0 ? 1 : $total_size),2)) . '%)</td><td>' . $this->format_rate($rate_up) . '</td><td>' . $this->format_rate($rate_dl) . '</td></tfoot>';
 	$out .= '</table></fieldset>';
 	return $out;
     } // get_torrents_list
