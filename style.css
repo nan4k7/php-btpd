@@ -20,7 +20,7 @@ table.sortable tbody tr td {
 
 table.sortable tbody tr td.have {
     text-align: center;
-    width: 200px;
+    width: 210px;
 }
 
 table.sortable tbody tr td.state_0 {background-color: #ddd;}
