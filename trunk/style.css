@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: serif;
+    font-size: 12px;
+    color: #000;
+    background-color: #ddd;
+}
+a {
+    color: #557;
+}
+
+table.sortable {
+    font-size: 12px;
+    border-spacing: 0px;
+}
+
+table.sortable tbody tr td {
+    text-align: center;
+}
+
+table.sortable tbody tr td.have {
+    text-align: center;
+    width: 200px;
+}
+
+table.sortable tbody tr td.state_0 {background-color: #ddd;}
+table.sortable tbody tr:hover td.state_0 {background-color: #fff;}
+
+table.sortable tbody tr td.state_1 {background-color: #0f0;}
+table.sortable tbody tr:hover td.state_1 {background-color: #0f0;}
+
+table.sortable tbody tr td.state_2 {background-color: #a00;}
+table.sortable tbody tr:hover td.state_2 {background-color: #f00;}
+
+table.sortable tbody tr td.state_3 {background-color: #aa0;}
+table.sortable tbody tr:hover td.state_3 {background-color: #ff0;}
+
+table.sortable tbody tr td.state_4 {background-color: #0a0;}
+table.sortable tbody tr:hover td.state_4 {background-color: #0f0;}
+
+table.sortable tbody tr:hover {
+    background-color: #fff;
+}
+
+
+table.sortable tbody tr td.left {
+    text-align: left;
+}
+
+table.torrent_info {
+    font-size: 12px;
+    border-spacing: 0px;
+}
+
+img {
+    border: 0px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+#topnav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+#topnav li {
+    display: inline;
+}
+#topnav ul li a {
+    background: #ddd;
+    text-decoration:none;
+    margin: 4px;
+    padding: 5px 20px 5px 20px;
+    color: #557;
+}
+#topnav ul li a:hover {
+    background: #fff;
+    color: 557;
+}
+
+div.login {
+    display:none;
+    float: right;
+}
+
+div.copyright {
+    font-size: small;
+    text-align: right;
+    background: #ccf;
+    border-right:#000 1px solid;
+    border-bottom:#000 1px solid;
+}
+
+div.copyright a {
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid #000;
+}
+
+input.submit {
+    color: #000;
+    background: #eee;
+    border: 1px outset #000;
+}
+
+div.counter {
+    float: right;
+}
