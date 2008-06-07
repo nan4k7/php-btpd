@@ -12,6 +12,8 @@ $btpdc = new btpdWebControl();
 <link rel="stylesheet" href="style.css" type="text/css">
 <script language="JavaScript" type="text/javascript" src="js.js"></script>
 <script language="JavaScript" type="text/javascript" src="sorttable.js"></script>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 </head>
 <body>
 <?php print $btpdc->refresh_selector(); ?>

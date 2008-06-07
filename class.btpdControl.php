@@ -86,7 +86,7 @@ class btpdControl {
 	if (strlen($buf) != 4) return false;
 	$len = unpack('I', $buf);
 	while($readed < $len[1]) {
-	    $readed += socket_recv($this->socket, &$buf, $len[1], 0);
+	    $readed += socket_recv($this->socket, $buf, $len[1], 0);
 	    $out .= $buf;
 	}
 	return $out;
